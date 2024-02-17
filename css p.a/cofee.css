@@ -1,0 +1,22 @@
+.background{
+    background-color: rgba(50, 79, 79, 0.773);
+    width:98%;
+    height:720px;
+    margin-left: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.background img{
+    width:100%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.link{
+    display: inline;
+    background-image:  url('https://css.gg/css?=');
+}
+link{
+    display: block;
+}

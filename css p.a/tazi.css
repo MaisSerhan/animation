@@ -1,0 +1,38 @@
+.black{
+    background-color: rgb(12 12 12 / 89%);
+    border-radius: 145px;
+    position: absolute;
+    width: 607px;
+    height: 239px;
+    left: 438px;
+    top: 270px;
+}
+.black::after{
+    content: "";
+    position: absolute;
+    top: 113px;
+    left: 0px;
+    width: 607px;
+    height: 3px;
+    color: white;
+    background:linear-gradient(90deg, white,
+    transparent 50%,transparent 100%);
+    background-size: 50px;}
+ .div{
+      background-color: rgb(22, 223, 72);
+      z-index: -1;
+      width: 200px;
+      height: 200px;
+    }
+  img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  mix-blend-mode:screen;
+
+  
+  z-index: 3;
+    }
+
+  
+    

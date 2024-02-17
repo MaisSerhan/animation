@@ -1,0 +1,95 @@
+
+.school{
+    background-image: url(https://media.istockphoto.com/id/186655818/vector/vector-school-building.jpg?s=612x612&w=0&k=20&c=R4E6i4SFNUehDmwK1R--QddAozO4yLhAfYxMdzL1kpk=);
+    width: 533px;
+    height: 599px;
+    background-color: black;
+    position: absolute;
+    left: 940px;
+    bottom: 151px;
+}
+
+.bus img{
+    width: 299px;
+    height: 146px;
+    position: absolute;
+    left: 1166px;
+    bottom: 23px;
+    animation: bus 5s infinite alternate;
+}
+
+.home img{
+    width: 352px;
+    height: 304px;
+    position: absolute;
+    left: 126px;
+    bottom: 213px;
+}
+
+.boy img{
+    width: 96px;
+    height: 144px;
+    position: absolute;
+    left: 26px;
+    bottom: 166px;
+    animation: boy 10s infinite alternate;
+}
+.boy2 img{
+    width: 96px;
+    height: 144px;
+    position: absolute;
+    left: 1170px;
+    bottom: 166px;
+    display: none;
+    animation: boy2 10s infinite 1s alternate;
+}
+
+@keyframes bus {
+   0%{
+    left: 1176px;
+    bottom: 23px;
+   }
+   10%{
+    left: 1176px;
+    bottom: 23px; 
+   } 
+   90%{
+    left: 126px;
+    bottom: 23px;
+   }
+   100%{
+    left: 126px;
+    bottom: 23px;
+   }
+}
+@keyframes boy {
+    0%{
+     display:inline;
+    }
+    58%{
+        left: 26px;
+    bottom: 23px;
+    }
+    60%{
+        display: none;
+    }
+    100%{
+     display: none;
+    }
+}
+@keyframes boy2 {
+    0%{
+     display:none;
+    }
+    58%{
+      display: none;
+    }
+    80%{  
+        left: 1170px;
+        bottom: 23px;
+        display: inline;
+    }
+    84%{
+     display: none;
+    }
+}
